@@ -7,8 +7,7 @@ private:
   int h_travail;
 public:
   Interimaires();
-
-  int Salaire_Technicien_interimaires(int h_travail){}
+  int Salaire_Technicien_interimaires(int h_travail);
 };
 
 /*

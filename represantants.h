@@ -7,7 +7,7 @@ fonction pour afficher les valeurs
 */
 #ifndef DEF_REPRESENTANTS
 #define DEF_REPRESENTANTS
-#include "employe.h"
+#include "commerciaux.h"
 #include <iostream>
 
 class Representant :  public:technicien

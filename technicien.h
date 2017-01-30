@@ -2,5 +2,8 @@
 #define TECHNICIEN
 #include "employe.h"
 
-class Technicien : public Employes {};
+class Technicien : public Employe {
+public:
+private:
+};
 #endif

@@ -10,4 +10,5 @@ class Employe {
 		std::string name;
 		std::string firstName;
 		std::string age;
-}
+};
+#endif
