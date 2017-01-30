@@ -10,18 +10,20 @@ fonction pour afficher les valeurs
 #include "employ.h"
  
 #include <iostream>
-#include <string>
+
  
-class représentant
+class representant :  public:technicien
 {
-    public:
+   
+     
         représentant();
-        void getrepresentant(int prime);
-        void setrepresentant(string representant) const;
+         representant(int primeRepresentant);
+        int getPrimeRepresentant();
+        void setprimeRepresentant(int primeRepresentant ) const;
  
     private:
-        int m_prime;
-        std::string m_representant;
+        std::int m_primeRepresentant;
+     
 };
  
 #endif

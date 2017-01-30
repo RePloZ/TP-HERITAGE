@@ -1,8 +1,11 @@
-#ifndef COMMERCIAUX
-#define COMMERCIAUX
-#include "employes.h"
+#ifndef DEF_COMMERCIAUX
+#define DEF_COMMERCIAUX
+#include "employe.h"
 
 class Commerciaux : public Employes {
+  
+  Commerciaux();
+  Commerciaux (int salaireBase);
 
   int getSalaireBase();
   void setSalaireBase (int salaireBase);
@@ -12,3 +15,4 @@ class Commerciaux : public Employes {
 
 };
 
+#endif

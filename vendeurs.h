@@ -1,7 +1,18 @@
-/*
-en privés
-variable int prime
-en publique
-fonction pour le salaire
-fonction pour afficher les valeurs
-*/
+#ifndef DEF_VENDEURS
+#define DEF_VENDEURS
+#include "commerciaux.h"
+
+class Vendeurs : public Commerciaux {
+  
+  Vendeur();
+  Vendeur( int PrimeVendeur);
+
+  int getPrimeVendeurs();
+  void setVendeurs (int primeVendeurs);
+
+  private:
+  std::int m_primeVendeurs;
+
+};
+
+#endif
