@@ -1,9 +1,9 @@
-#ifndef DEF_EMPLOYES
-#define DEF_EMPLOYES
+#ifndef DEF_EMPLOYE
+#define DEF_EMPLOYE
 #include <string>
 #include <void>
 
-class Employes {
+class Employe {
 	public:
 		string getName(string name);
 		void setName(string name);
