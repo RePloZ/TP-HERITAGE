@@ -1,5 +1,5 @@
-#ifndef COMMERCIAUX
-#define COMMERCIAUX
+#ifndef DEF_COMMERCIAUX
+#define DEF_COMMERCIAUX
 #include "employes.h"
 
 class Commerciaux : public Employes {
