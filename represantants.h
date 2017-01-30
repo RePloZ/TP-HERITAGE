@@ -16,7 +16,7 @@ class représentant
 {
     public:
         représentant();
-        void getrepresentant(int prime);
+        int getrepresentant();
         void setrepresentant(string representant) const;
  
     private:
