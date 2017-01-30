@@ -7,6 +7,7 @@ fonction pour afficher les valeurs
 */
 #ifndef DEF_REPRESENTANT
 #define DEF_REPRESENTANT
+#include "employ.h"
  
 #include <iostream>
 #include <string>
