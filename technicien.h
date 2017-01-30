@@ -1,6 +1,6 @@
 #ifndef TECHNICIEN
 #define TECHNICIEN
-#include "employes.h"
+#include "employe.h"
 
 class Technicien : public Employes {};
 #endif
