@@ -1,14 +1,14 @@
-#ifndef INTERMEDIARES
-#define INTERMEDIARES
+#ifndef INTERIMAIRES
+#define INTERIMAIRES
 #include "technicien.h"
 
 class Intermediaires : public Technicien {
 private:
   int h_travail;
 public:
-  Intermediaires();
+  Interimaires();
 
-  int Salaire_Technicien_intermediaires(int h_travail){}
+  int Salaire_Technicien_interimaires(int h_travail){}
 };
 
 /*

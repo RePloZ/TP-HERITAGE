@@ -7,23 +7,16 @@ fonction pour afficher les valeurs
 */
 #ifndef DEF_REPRESENTANTS
 #define DEF_REPRESENTANTS
-#include "employ.h"
- 
+#include "employe.h"
 #include <iostream>
 
- 
-class representants :  public:technicien
+class Representant :  public:technicien
 {
-   
-     
-        représentants();
-         representant(int primeRepresentants);
-        int getPrimeRepresentants();
-        void setprimeRepresentants(int primeRepresentants ) const;
- 
-    private:
-        std::int m_primeRepresentants;
-     
+public:
+  Representant();
+  int Salaire_Commerciaux_Representant(m_primeRepresentants);
+private:
+  std::int m_primeRepresentants;
 };
- 
+
 #endif

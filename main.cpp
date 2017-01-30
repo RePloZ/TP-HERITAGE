@@ -1,8 +1,4 @@
 #include <iostream>
-#include "interimaire.h"
-#include "technicien.h"
-#include "representants.h"
-#include "salarie.h"
 using namespace std;
 
 int main(int argc, char const *argv[]) {
@@ -23,7 +19,7 @@ int main(int argc, char const *argv[]) {
   cout << "4 - Salarie" << endl;
   switch (proffession) {
     case 1 :
-    
+
       break;
     case 2 :
 

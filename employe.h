@@ -5,12 +5,7 @@
 
 class Employe {
 	public:
-		string getName(string name);
-		void setName(string name);
-		string getFirstName(string firstName);
-		void setFirstName(string firstName);
-		string getAge(string age);
-		void setAge(string age);
+		Employe();
 	private:
 		std::string name;
 		std::string firstName;
