@@ -1,0 +1,24 @@
+Employés
+	Commerciaux
+		- Vendeurs
+			int prime = 100
+		- Représentants
+			int prime = 250
+	Techniciens
+		- Salariés Classiques
+		- Interimaires
+			int h_travail
+
+Employés
+nom
+prénom
+âge
+
+function Salaire_commercial
+	- Salaire de base (2500) + int prime
+functiion Salaire_technicien_salarie
+	- Salaire de base (2000)
+function Salaire_technicien_intermediaire
+	- Travail à l'heure (24,5) * h_travail
+function Caractéristique
+	- Afficher nom, prénom, âge, salaire
