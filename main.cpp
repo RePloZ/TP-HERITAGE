@@ -74,7 +74,7 @@ Vendeurs::Salaire_Commerciaux_Vendeurs(int m_primeVendeurs){
 int prime;
 cout << Combien avez vous eu de prime << endl;
 cin >> prime;
-salaire = m_primeVendeurs + (prime*)
+salaire = 2500 + (prime*m_primeVendeurs);
 }
 void afficherletout(string nom; string firstName;string age;int salaire){
   cout << "Nom :" << nom << endl;
