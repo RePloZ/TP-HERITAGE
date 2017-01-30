@@ -5,24 +5,24 @@ en publique
 fonction pour le salaire
 fonction pour afficher les valeurs
 */
-#ifndef DEF_REPRESENTANT
-#define DEF_REPRESENTANT
+#ifndef DEF_REPRESENTANTS
+#define DEF_REPRESENTANTS
 #include "employ.h"
  
 #include <iostream>
 
  
-class representant :  public:technicien
+class representants :  public:technicien
 {
    
      
-        représentant();
-         representant(int primeRepresentant);
-        int getPrimeRepresentant();
-        void setprimeRepresentant(int primeRepresentant ) const;
+        représentants();
+         representant(int primeRepresentants);
+        int getPrimeRepresentants();
+        void setprimeRepresentants(int primeRepresentants ) const;
  
     private:
-        std::int m_primeRepresentant;
+        std::int m_primeRepresentants;
      
 };
  
