@@ -12,9 +12,10 @@ fonction pour afficher les valeurs
 #include <iostream>
 
  
-class représentant
+class representant :  public:technicien
 {
-    public:
+   
+     
         représentant();
          representant(int primeRepresentant);
         int getPrimeRepresentant();
