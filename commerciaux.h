@@ -1,4 +1,5 @@
-#ifndef DEF_GUERRIER
-#define DEF_GUERRIER
-
+#ifndef COMMERCIAUX
+#define COMMERCIAUX
 #include "employes.h"
+
+class Commerciaux : public Employes {}
