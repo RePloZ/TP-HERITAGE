@@ -7,6 +7,6 @@
 class Commercial : public Employe{
 public:
 private:
-int m_salaireBase;
+int nbPrime;
 };
 #endif

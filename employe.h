@@ -4,7 +4,18 @@
 
 class Employe {
 	public:
-		Employe();
+		string getName();
+		void setName();
+
+		string getFirstName();
+		void setFirstName();
+
+		int getAge();
+		void setAge();
+
+
+		int calculSalaire();
+		void afficher();
 	private:
 		std::string name;
 		std::string firstName;
