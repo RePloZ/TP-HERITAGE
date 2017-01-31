@@ -6,6 +6,8 @@
 
 class Commercial : public Employe{
 public:
+  int getNbPrime();
+  void setNbPrime(int value);
 private:
 int nbPrime;
 };

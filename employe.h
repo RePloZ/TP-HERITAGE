@@ -12,8 +12,7 @@ class Employe {
 
 		int getAge();
 		void setAge();
-
-
+		
 		int calculSalaire();
 		void afficher();
 	private:
