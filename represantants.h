@@ -6,9 +6,8 @@
 class Representant :  public Commercial{
 public:
   Representant();
-  int Salaire_Commerciaux_Representant(int m_primeRepresentants);
 private:
-  int m_primeRepresentants;
+  int nbDeplacement;
 };
-Representant::Representant(int e_m_primeRepresentants, std::string e_name, std::string e_firstName, std::string e_age);
+Representant::Representant(int nbPrime, std::string e_name, std::string e_firstName, std::string e_age);
 #endif

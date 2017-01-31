@@ -5,6 +5,12 @@
 class Employe {
 	public:
 		Employe();
+
+		getName();
+		setName();
+
+		int calculSalaire();
+		void afficher();
 	private:
 		std::string name;
 		std::string firstName;
