@@ -1,20 +1,14 @@
 #ifndef INTERIMAIRES
 #define INTERIMAIRES
 #include "technicien.h"
+#include <iostream>
 
-class Intermediaires : public Technicien {
+class Interimaire : public Technicien {
 private:
   int h_travail;
 public:
-  Interimaires();
+  Interimaire();
   int Salaire_Technicien_interimaires(int h_travail);
 };
-
-/*
-en privés
-variable int h_travail
-en publique
-fonction pour le salaire
-fonction pour afficher les valeurs
-*/
+Interimaire::Interimaire(int e_Salaire_interimaire, std::string e_name, std::string e_firstName, std::string e_age);
 #endif

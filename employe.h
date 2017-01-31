@@ -1,7 +1,6 @@
 #ifndef DEF_EMPLOYE
 #define DEF_EMPLOYE
 #include <string>
-#include <void>
 
 class Employe {
 	public:

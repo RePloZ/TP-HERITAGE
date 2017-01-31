@@ -1,13 +1,19 @@
-#ifndef DEF_VENDEURS
-#define DEF_VENDEURS
-#include "commerciaux.h"
+#ifndef DEF_VENDEUR
+#define DEF_VENDEUR
 
-class Vendeurs : public Commerciaux {
+#include "commercial.h"
+#include <iostream>
+#include <string>
+
+class Vendeur : public Commercial {
   public:
-  Vendeurs();
+  Vendeur();
   int Salaire_Commerciaux_Vendeurs(int m_primeVendeurs);
+  Vendeur::Vendeur(int e_m_primeVendeurs,int m_Salaire_vendeur, std::string e_name, std::string e_firstName, std::string e_age);
   private:
-  std::int m_primeVendeurs(100);
-  std::int Salaire_vendeur(2500);
+  int m_primeVendeurs;
+  int Salaire_vendeur;
 };
+
+
 #endif

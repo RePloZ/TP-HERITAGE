@@ -1,22 +1,14 @@
-/*
-en privés
-variable int prime
-en publique
-fonction pour le salaire
-fonction pour afficher les valeurs
-*/
-#ifndef DEF_REPRESENTANTS
-#define DEF_REPRESENTANTS
-#include "commerciaux.h"
+#ifndef DEF_REPRESENTANT
+#define DEF_REPRESENTANT
+#include "commercial.h"
 #include <iostream>
 
-class Representant :  public:technicien
-{
+class Representant :  public Commercial{
 public:
   Representant();
-  int Salaire_Commerciaux_Representant(m_primeRepresentants);
+  int Salaire_Commerciaux_Representant(int m_primeRepresentants);
 private:
-  std::int m_primeRepresentants;
+  int m_primeRepresentants;
 };
-
+Representant::Representant(int e_m_primeRepresentants, std::string e_name, std::string e_firstName, std::string e_age);
 #endif
