@@ -17,3 +17,7 @@ Interimaire::getNbHeureTravail(){
 interimaire::setNbHeureTravail(int value){
   nbHeureTravail = value;
 }
+
+int calculSalaire (){
+  return 24.5 * nbHeureTravail
+}
