@@ -2,9 +2,9 @@
 #include <iostream>
 #include "commercial.h"
 
-Commercial::getNbPrime(){
+int Commercial::getNbPrime(){
   return nbPrime;
 }
-Commercial::setNbPrime(){
+void Commercial::setNbPrime(int value){
   nbPrime = value;
 }

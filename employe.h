@@ -4,20 +4,20 @@
 
 class Employe {
 	public:
-		string getName();
-		void setName();
+		std::string getName();
+		void setName(std::string value);
 
-		string getFirstName();
-		void setFirstName();
+		std::string getFirstName();
+		void setFirstName(std::string value);
 
 		int getAge();
 		void setAge();
-		
+
 		int calculSalaire();
 		void afficher();
 	private:
 		std::string name;
 		std::string firstName;
-		std::string age;
+		int age;
 };
 #endif

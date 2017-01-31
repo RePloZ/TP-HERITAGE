@@ -2,12 +2,13 @@
 #define DEF_REPRESENTANT
 #include "commercial.h"
 #include <iostream>
-
+#include <string>
 class Representant :  public Commercial{
 public:
-  Representant();
+  int getNbDeplacement();
+  void setNbDeplacement(int value);
+  Representant::Representant(int nbDeplacement, int vNbPrime, std::string e_name, std::string e_firstName, int e_age);
 private:
   int nbDeplacement;
 };
-Representant::Representant(int nbPrime, std::string e_name, std::string e_firstName, std::string e_age);
 #endif

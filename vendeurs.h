@@ -7,7 +7,7 @@
 
 class Vendeur : public Commercial {
   public:
-  Vendeur::Vendeur(int e_m_primeVendeurs,int m_Salaire_vendeur, std::string e_name, std::string e_firstName, std::string e_age);
+  Vendeur::Vendeur(int e_m_primeVendeurs,int m_Salaire_vendeur, std::string e_name, std::string e_firstName, int e_age);
   private:
 };
 

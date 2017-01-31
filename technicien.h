@@ -6,7 +6,7 @@
 
 class Technicien : public Employe{
 public:
-	Technicien::Technicien(int e_salaire_salaries, std::string e_name, std::string e_firstName, std::string e_age);
+	Technicien::Technicien(std::string e_name, std::string e_firstName, int e_age);
 private:
 };
 #endif

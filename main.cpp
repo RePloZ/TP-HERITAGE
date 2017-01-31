@@ -39,7 +39,6 @@ pointutilisateur= &name;
   cout << "Salaire Technicien :" << Technicien::Salaire_technicien_salaries(technicien) << endl;
   cout << "Salaire Vendeurs avec 7 primes:" << Vendeur::Salaire_Commerciaux_Vendeurs(vendeurs) << endl;
 */
-/*
   cout << "Votre proffession" << endl;
   cout << "1 - Interimaire" << endl;
   cout << "2 - Representants" << endl;
@@ -53,11 +52,18 @@ switch (proffession) {
     new Interimaire *utilisateur(*pointname);
     int h_travail;
     cout << "Combien d'heure de travail ?" << endl;
-   salaire = Interimaire::Salaire_Technicien_interimaires(h_travail);
-       afficherletout(name,firstName, age, salaire);
-       delete Interimaire *utilisateur;
+   afficherletout(name,firstName, age, Technicien::calculSalaire());
+    delete Interimaire *utilisateur;
       break;
     case 2 :
+    int deplacement
+    cout << "Combien de deplacement avez vous fait ?" << endl;
+    cin >> deplacement;
+    Representant::setNbDeplacement(deplacement);
+    int nb_prime;
+    cout << "Combien de prime avez vous eu ?" << endl;
+    cin >> nb_prime;
+    Representant::setNbPrime(nbPrime);
     new Representant *utilisateur();
     salaire = Representant::Salaire_Commerciaux_Representant(m_primeRepresentants);
   afficherletout(name,firstName, age, salaire);
