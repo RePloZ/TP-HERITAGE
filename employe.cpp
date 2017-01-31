@@ -3,22 +3,21 @@
 #include "employe.h"
 using namespace std;
 
-
-Employe::getName(){
-  return Name;
+string Employe::getName(){
+  return name;
 }
-Employe::setName(string value){
-  Name = value;
+void Employe::setName(string value){
+  name = value;
 }
-Employe::getfirstName(){
+string Employe::getFirstName(){
   return firstName;
 }
-Employe::setfirstName(string value){
+void Employe::setFirstName(string value){
   firstName = value;
 }
-Employe::getAge(){
+int Employe::getAge(){
   return age;
 }
-Employe::setAge(string value){
+void Employe::setAge(string value){
   age = value;
 }

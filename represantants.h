@@ -5,9 +5,8 @@
 
 class Representant :  public Commercial{
 public:
-  Representant();
+  Representant::Representant(int nbPrime, std::string e_name, std::string e_firstName, std::string e_age);
 private:
   int nbDeplacement;
 };
-Representant::Representant(int nbPrime, std::string e_name, std::string e_firstName, std::string e_age);
 #endif

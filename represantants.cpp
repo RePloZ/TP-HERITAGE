@@ -5,12 +5,12 @@
 using namespace std;
 
 Representant::Representant(int vNDeplacement,int vNbPrime, std::string vName, std::string vFirstName, std::string vAge){
-  nbDeplacement = vNDeplacement; 
+  nbDeplacement = vNDeplacement;
   nbPrime = vNbPrime;
   name = Vname;
   firstName = vFirstName;
   age = vAge;
 }
-int calculSalaire(){
+int Representant::calculSalaire(){
   return 2500 + (nbDeplacement*50) + (250*nbPrime)
 }

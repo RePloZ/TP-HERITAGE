@@ -10,6 +10,6 @@ Vendeur::Vendeur(int e_m_primeVendeurs, e_Salaire_vendeur, std::string e_name, s
   firstName = e_firstName;
   age = e_age;
 }
-Vendeur::calculSalaire(){
+int Vendeur::calculSalaire(){
   return 2500 + (nbPrime*100);
 }

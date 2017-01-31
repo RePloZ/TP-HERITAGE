@@ -11,6 +11,6 @@ Technicien::Technicien() std::string e_name, std::string e_firstName, std::strin
 	firstName = e_firstName;
 	age = e_age;
 }
-int calculSalaire (){
+int Technicien::calculSalaire (){
   return 2000
 }
